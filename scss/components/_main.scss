@@ -21,6 +21,10 @@ body {
 	}
 }
 
+ul {
+	@extent .border;
+}
+
 a { 
 	border: 1px solid red;
 	&:hover {

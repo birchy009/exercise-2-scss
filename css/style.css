@@ -20,7 +20,7 @@ body {
   display: inline-block;
   text-decoration: none;
   transition: all 150ms ease-in-out; }
-  /* line 12, /Users/birchy009/Desktop/GD-Y3S2/Web Dev 5/exercise-2-scss/scss/mixins */
+  /* line 13, /Users/birchy009/Desktop/GD-Y3S2/Web Dev 5/exercise-2-scss/scss/mixins */
   .primary-btn:hover {
     background-color: #2980b9; }
 
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   text-decoration: none;
   transition: all 150ms ease-in-out; }
-  /* line 12, /Users/birchy009/Desktop/GD-Y3S2/Web Dev 5/exercise-2-scss/scss/mixins */
+  /* line 13, /Users/birchy009/Desktop/GD-Y3S2/Web Dev 5/exercise-2-scss/scss/mixins */
   .secondary-btn:hover {
     background-color: #666; }
 
@@ -45,9 +45,10 @@ body {
   .border p {
     color: red; }
 
-/* line 24, /Users/birchy009/Desktop/GD-Y3S2/Web Dev 5/exercise-2-scss/scss/components/main */
+@extent .border;
+/* line 28, /Users/birchy009/Desktop/GD-Y3S2/Web Dev 5/exercise-2-scss/scss/components/main */
 a {
   border: 1px solid red; }
-  /* line 26, /Users/birchy009/Desktop/GD-Y3S2/Web Dev 5/exercise-2-scss/scss/components/main */
+  /* line 30, /Users/birchy009/Desktop/GD-Y3S2/Web Dev 5/exercise-2-scss/scss/components/main */
   a:hover {
     border: 1px solid blue; }

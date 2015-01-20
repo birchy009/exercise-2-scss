@@ -9,6 +9,7 @@
 	display: inline-block;
 	text-decoration: none;
 	transition: all 150ms ease-in-out;
+	// references the parent selector using the '&'
 	&:hover {
 		background-color: $hover-color;
 	}
